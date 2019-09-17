@@ -35,7 +35,7 @@ body {
 }
 
 .navbar-brand img {
-    height: 2rem;
+    height: 2rem;    
 }
 
 .navbar-toggler{
@@ -55,6 +55,7 @@ body {
     color: white;
     font-size: 1.6rem;
 }
+
 .navbar-brand{
     margin-top: 0px !important;
 }
