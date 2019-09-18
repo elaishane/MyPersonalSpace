@@ -164,10 +164,80 @@ img.example-image {
     overflow: hidden;
 }
 
-/*===================== PORTFOLIO SECTIOON===========*/
+/*===================== FOUNDERS SECTIOON===========*/
 
 .card {
     margin: 0 1rem;
+    border-radius: 0;
+}
+
+.card-img-top {
+    border-radius: 0;
+}
+
+.card h4 {
+    font-weight: 700;
+}
+
+.card h5 {
+    color: #00b3ff;
+}
+
+.card p {
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+    margin: 1rem 0 1.5rem;
+}
+
+/*===================== CONTACT SECTIOON===========*/
+.footer .row {
+	background-color: rgba(57, 63, 70, .85);
+	padding: 1rem 2rem 3rem;
+	color: white;
+}
+.footer img {
+	height: 2rem;
+	margin: 1.5rem 0;
+}
+.footer a {
+	color: white;
+}
+.footer svg.svg-inline--fa {
+	margin: 1.2rem .5rem 0 0;
+}
+.footer svg.svg-inline--fa:hover {
+	color: #00B3FF!important;
+}
+.footer h3 {
+	text-transform: uppercase;
+	margin: 1.5rem 0;
+}
+
+
+/*-------- Contact Form ----------*/
+.form-group {
+	margin-bottom: 1.3rem;
+}
+.form-control {
+	background: #53595f;
+	border-radius: 0;
+	border: .15rem solid #666b71;
+	color: white!important;
+}
+.form-control:focus {
+	background: #53595f;
+	border: .15rem solid #666b71;
+}
+.form-group input::placeholder,
+.form-group textarea::placeholder {
+	color: #b2b5b8!important;
+}
+input.btn {
+	cursor: pointer;
+}
+hr.socket {
+	width: 100%;
+	border-top: .2rem solid #666b71;
 }
 
 /*============ BOOTSTRAP BREAK POINTS:
