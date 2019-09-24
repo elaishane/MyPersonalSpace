@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS-->
+    <link rel="shortcut icon" href="../img/logo.jpeg">
+    <link rel="stylesheet" href="../bootstrap-4.1.0-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../pages/home.css">
+    <link rel="stylesheet" href="../css/fixed.css">
+    <link rel="stylesheet" href="../css/lightbox.css">
+    <title> My Personal Space </title>
+</head>
+
+<body data-spy="scroll" data-target="#navbarResponsive">
+
+    <!-- Start Home Section-->
+    <div id="home">
+        <!--Navigation-->
+        <nav class="navbar navbar-expand-md fixed-top">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="../img/logo.jpeg" alt="MyPersonalSpaceLogo">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+                    <span class="custom-toggler-icon">
+                        <i class="fas fa-bars"></i>
+                    </span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item md-auto">
+                            <a class="nav-link" href="#home">Home</a>
+                        </li>
+                        <li class="navbar-nav md-auto">
+                            <a class="nav-link" href="#about">About</a>
+                        </li>
+                        <li class="navbar-nav md-auto">
+                            <a class="nav-link" href="#portfolio">Portfolio</a>
+                        </li>
+                        <li class="navbar-nav md-auto">
+                            <a class="nav-link" href="#founders">Founders</a>
+                        </li>
+                        <li class="navbar-nav md-auto">
+                            <a class="nav-link" href="#contacts">Contacts</a>
+                        </li>
+                        <li class="navbar-nav md-auto">
+                            <a class="nav-link" href="Login/signup.php">Log in/Sign up</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- End Navigation -->
+
+        <!-- Start Landing Page Image-->
+        <div class="landing">
+            <div class="home-wrap">
+                <div class="home-inner">
+                </div>
+            </div>
+        </div>
+
+        <!-- End Landing Page Image-->
+        <!--Start Landing Page Caption-->
+        <div class="caption center-block text-center">
+            <h3>Welcome to My Personal Space </h3>
+            <a class="btn btn-outline-light" href="#about">Get Started</a>
+        </div>
+        <!--End Landing Page Caption-->
+
+    </div>
+
+    <!-- End Home Section-->
+
+    <!--Start About Section-->
+    <nav>
+        <div id="about" class="offset">
+
+            <!--Start Jumbotron -->
+            <div class="jumbotron">
+                <h3 class="heading">About</h3>
+                <div class="heading-underline"></div>
+
+                <div class="row narrow">
+                    <div class="col-md-4">
+                        <div class="about text-center">
+                            <i class="fas fa-utensils fa-3x"></i>
+                            <h3>Free Food</h3>
+                            <p>The foos in the Hotels are free and are in buffet manner</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="about text-center">
+                            <i class="fas fa-hotel fa-3x"></i>
+                            <h3>Ample Space</h3>
+                            <p>The Hotel is present in a well suited place. The environment is relaxing</p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class=" about text-center">
+                            <i class="fas fa-car-side fa-3x"></i>
+                            <h3>Parking space</h3>
+                            <p>
+                                There is an ample parking space present for your car to park
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <!--End Row-->
+        </div>
+        <!--End Jumbotron-->
+        </div>
+    </nav>
+    <!--End About Section-->
+
+    <!--Start Portfolio Section-->
+    <nav>
+        <div id="portfolio" class="offset">
+            <div class="container-fluid padding">
+                <h3 class="heading">Portfolio</h3>
+                <div class="heading-underline"></div>
+
+                <!--Start Portfolio Grid-->
+                <div class="row no-padding">
+                    <div class="col-md-6">
+                        <div class="portfolio-item">
+                            <a href="../img/rooms/room(1).jpg" data-lightbox="example-set" data-title="Our study room">
+                                <img class="example-image" src="../img/rooms/room(1).jpg"></a>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="portfolio-item">
+                            <a href="../img/rooms/room(2).jpg" data-lightbox="example-set" data-title="Our Room"><img
+                                    class="example-image" src="../img/rooms/room(2).jpg"></a>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="portfolio-item">
+                            <a href="../img/rooms/room(3).jpg" data-lightbox="example-set" data-title="Our study room">
+                                <img class="example-image" src="../img/rooms/room(3).jpg"></a>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="portfolio-item">
+                            <a href="../img/rooms/room(4).jpg" data-lightbox="example-set" data-title="Our study room">
+                                <img class="example-image" src="../img/rooms/room(4).jpg"></a>
+                        </div>
+                    </div>
+                </div>
+                <!--End Row-->
+                <!--End Portfolio Grid-->
+            </div>
+            <!--------------- End Container------------->
+
+            <div class="narrow text-center padding">
+            <div class="lead">Get in touch with us to see more of our rooms and to book our rooms in any part of our city</div>
+            </div>
+
+        </div>
+    </nav>
+    <!--End Portfolio Section-->
+
+    <!--Start Founders Section-->
+    <nav>
+        <div id="founders" class="offset">
+            <div class="jumbotron">
+
+                <h3 class="heading">Founders</h3>
+                <div class="heading-underline"></div>
+                <div class="row narrow">
+                    <div class="col-md-4">
+                        <div class="card text-center ">
+                            <img class="card-img-top" src="../img/founders/Yash_Adulkar.jpeg" alt="Yash Adulkar">
+                            <div class="card-body">
+                                <h4>Yash Adulkar</h4>
+                                <h5>CEO, My Personal Space </h5>
+                                <p>Third Year Engineering Student.<br>FrontEnd Developer</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card text-center">
+                            <img class="card-img-top" src="../img/founders/Bhavya_Antiya.jpg" alt="Bhavya Anitya">
+                            <div class="card-body">
+                                <h4>Bhavya Anitiya</h4>
+                                <h5>Director, My Personal Space </h5>
+                                <p>Third Year Engineering Student.<br>BackEnd Developer</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card text-center">
+                            <img class="card-img-top" src="../img/founders/Deep_Gotecha.JPG" alt="Deep Gotecha">
+                            <div class="card-body">
+                                <h4>Deep Gotecha</h4>
+                                <h5>President, My Personal Space </h5>
+                                <p>Third Year Engineering Student.<br> Designer</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div><!-- End Row -->
+            </div>
+            <!--End Jumbotron-->
+        </div>
+    </nav>
+    <!--End Founders Section-->
+
+    <!--Start Contact Section-->
+    <nav>
+        <div id="contacts" class="offset">
+            <div class="container-fluid footer">
+                <!--Footer is our custom class-->
+                <div class="row">
+                    <div class="col-md-5">
+                        <img src="../img/logo.jpeg" alt="MyPersonalSpaceLogo">
+                        <p>Do let us know your problems in order o solve your problems
+                            fill in the information carefully.
+                        </p>
+                        <strong>Our Location</strong>
+                        <p>100 Street Name<br>Our City, AA 10000</p>
+                        <strong>Contact Info</strong>
+                        <p>(888) 888-8888<br>email@mypersonalspace.com</p>
+                        <a href="https://www.facebook.com/yash.adulkar"><i class="fab fa-facebook-square"></i></a>
+                        <a href="https://twitter.com/yash151099"><i class="fab fa-twitter-square"></i></a>
+                        <a href="https://www.linkedin.com/in/yash-adulkar-7b5574183/"><i
+                                class="fab fa-linkedin"></i></a>
+                    </div>
+
+                    <div class="col-md-7">
+                        <h3>Contact Us</h3>
+
+                        <form id="contact-form" method="post" action="contact.php">
+                            <div class="messages">
+                                <div class="controls">
+
+                                    <div class="form-group">
+                                        <input id="form_name" type="text" name="name" class="form-control"
+                                            placeholder="Enter your Name." required="required">
+                                    </div>
+                                    <div class="form-group">
+                                        <input id="form-email" type="email" name="email" class="form-control"
+                                            placeholder="Enter your email." required="required">
+                                    </div>
+                                    <div class="form-group">
+                                        <textarea id="form_message" name="message" class="form-control"
+                                            placeholder="Add your message." rows="4" required="required"></textarea>
+                                    </div>
+
+                                    <input type="submit" class="btn btn-outline-light" value="Send message">
+                                </div>
+
+                            </div>
+                        </form>
+                    </div>
+                    <hr class="socket">
+                    &copy MyPersonalSpace.
+                </div><!-- End of Row-->
+            </div> <!-- End of Container Footer -->
+        </div>
+    </nav>
+    <!--End Contacts Section-->
+
+    <!---Script source files-->
+    <script src="../js/jquery-3.3.1.min.js"></script>
+    <script src="../bootstrap-4.1.0-dist/js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/95d91496d1.js"></script>
+    <script src="../js/custom.js"></script>
+    <script src="../js/lightbox.js"></script>
+    <script src="../js/validator.js"></script>
+    <script src="../js/contact.js"></script>
+    <!---End of Script-->
+</body>
+
+</html>
